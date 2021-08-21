@@ -1,10 +1,9 @@
 class Room:
     def __init__(self, name):
         self.name = name
-        self.song_queue = [] # list of songs for "Music" room
-        self.guest_queue =[] # list of guests for "Music" room
+        self.song_queue = [] # list of songs for the class rooms
+        self.guest_queue =[] # list of guests for the class rooms
         # self.till = till # extension
-        # self.guest = guest
         # self.max_capacity = max_capacity # oextension or put an int here max 3 peopele
 
     def add_song(self, song):
